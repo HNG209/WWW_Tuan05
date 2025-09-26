@@ -27,7 +27,10 @@ public class NhaCungCapDAOImpl implements NhaCungCapDAO {
     @Override
     public NhaCungCap findById(int id) {
         EntityManager em = emf.createEntityManager();
-
-        return em.find(NhaCungCap.class, id);
+        try {
+            return em.find(NhaCungCap.class, id);
+        } finally {
+            em.close();
+        }
     }
 }

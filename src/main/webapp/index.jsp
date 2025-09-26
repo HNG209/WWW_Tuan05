@@ -75,7 +75,7 @@
     <div class="menu">
         <a href="phone-list">Danh sách sản phẩm</a> |
         <a href="phone-insert">Thêm mới sản phẩm</a> |
-        <a href="adminFunctions.jsp">Chức năng quản lý</a>
+        <a href="quan-ly-form">Chức năng quản lý</a>
     </div>
     <%
         String cp = (String) request.getAttribute("contentPage");

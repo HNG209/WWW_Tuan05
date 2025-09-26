@@ -10,21 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f37ee66-35c9-44e6-a223-ee76f23df390" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_tuan05/HibernateListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_tuan05/PhoneInsertServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_tuan05/PhoneListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_tuan05/daos/DienThoaiDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_tuan05/daos/NhaCungCapDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_tuan05/daos/impl/DienThoaiDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_tuan05/daos/impl/NhaCungCapDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_tuan05/entities/DienThoai.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_tuan05/entities/NhaCungCap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/blank.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/phone-insert.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/phone-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_tuan05/QuanLyFormServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/quan-ly-form.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/www_tuan05/daos/DienThoaiDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/www_tuan05/daos/DienThoaiDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/www_tuan05/daos/impl/DienThoaiDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/www_tuan05/daos/impl/DienThoaiDAOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +26,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -182,11 +172,23 @@
       <workItem from="1758717292616" duration="1655000" />
       <workItem from="1758729071805" duration="4525000" />
       <workItem from="1758858493819" duration="8945000" />
-      <workItem from="1758868422712" duration="1219000" />
+      <workItem from="1758868422712" duration="1380000" />
+      <workItem from="1758877820163" duration="4929000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

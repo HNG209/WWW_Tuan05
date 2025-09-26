@@ -8,5 +8,7 @@ import java.util.List;
 
 public interface DienThoaiDAO {
     List<DienThoai> getDSDienThoai();
+    DienThoai findById(long id);
     boolean addDienThoai(DienThoai dienThoai);
+    boolean removeDienThoai(long id);
 }
