@@ -8,22 +8,26 @@
             margin: 0;
             font-family: Arial, sans-serif;
         }
+
         /* Khung tổng thể */
         .container {
             border: 1px solid #000;
-            width: 800px;
+            width: 80%;
             margin: 20px auto;
             background: #fff;
         }
+
         /* Header logo */
         .header {
             text-align: center;
             padding: 10px;
             border-bottom: 1px solid #000;
         }
+
         .header img {
             max-height: 80px;
         }
+
         /* Thanh menu */
         .menu {
             text-align: center;
@@ -31,20 +35,24 @@
             border-bottom: 1px solid #000;
             background-color: #f3f3f3;
         }
+
         .menu a {
             margin: 0 20px;
             text-decoration: none;
             color: #003399;
             font-weight: bold;
         }
+
         .menu a:hover {
             text-decoration: underline;
         }
+
         /* Nội dung chính */
         .content {
             min-height: 300px;
             padding: 20px;
         }
+
         /* Footer */
         .footer {
             border-top: 1px solid #000;
@@ -65,14 +73,18 @@
 
     <!-- Menu -->
     <div class="menu">
-        <a href="listProducts.jsp">Danh sách sản phẩm</a> |
-        <a href="addProduct.jsp">Thêm mới sản phẩm</a> |
+        <a href="phone-list">Danh sách sản phẩm</a> |
+        <a href="phone-insert">Thêm mới sản phẩm</a> |
         <a href="adminFunctions.jsp">Chức năng quản lý</a>
     </div>
-
+    <%
+        String cp = (String) request.getAttribute("contentPage");
+        if (cp == null) cp = "/views/blank.jsp";
+    %>
     <!-- Nội dung chính -->
-    <div class="content">
-        <!-- Nội dung động sẽ được include hoặc code tại đây -->
+    <div class="content" style="display: flex; justify-content: center; align-items: center">
+        <jsp:include page="<%=cp%>"/>
+        <%--        <jsp:include page="views/phone-insert.jsp"/>--%>
     </div>
 
     <!-- Footer -->
